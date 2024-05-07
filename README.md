@@ -1,5 +1,5 @@
-*WORD HUNT CLONE*
-Word Hunt Clone will be a one-player game where users are given a randomly generated board of letters and are tasked with connecting the letters on that board to create English words.
+
+Word Hunt Clone is a one player game where users are given a randomly generated board of letters and are tasked with connecting the letters on that board to create English words.
 
 Required Libraries: 
 -CMU graphics: https://academy.cs.cmu.edu/desktop
