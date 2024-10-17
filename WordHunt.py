@@ -1,5 +1,37 @@
 
-#Word Hunt
+# -------------------------------------------------------------------------
+# Word Hunt Game
+# -------------------------------------------------------------------------
+# Description:
+#   This program implements a word puzzle game where users must find and
+#   select valid words from a randomly generated 4x4 board of letters. The
+#   user can input their name to create or load a profile, track their
+#   high scores, and use hints if needed. The game also features a timer,
+#   scoring system, and persistent user profiles.
+#
+#   Key features:
+#     - Randomized 4x4 letter board generation.
+#     - Interactive game mechanics using mouse and keyboard inputs.
+#     - Persistent user profiles to track high scores.
+#     - Hints system to assist the player in finding valid words.
+#     - Multiple screens (home, instructions, game, results, etc.).
+#
+# Authors: [Your Name]
+# Date: [Current Date]
+# Language: Python 3.x
+# External Libraries:
+#   - cmu_graphics (for GUI components)
+#   - PIL (for image handling)
+#   - pickle (for profile persistence)
+#   - random (for random board generation)
+#
+# Usage:
+#   1. Install required external libraries:
+#      `pip install cmu-graphics Pillow`
+#   2. Run the script:
+#      `python word_hunt.py`
+#
+# -------------------------------------------------------------------------
 
 from cmu_graphics import *
 import random,os, pathlib, pickle, copy
