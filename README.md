@@ -1,13 +1,21 @@
+Word Hunt Game
+Word Hunt is a word puzzle game where players find valid words on a 4x4 letter board. Players can create profiles to track high scores and use hints to help discover words. The game includes multiple screens (home, instructions, game, and results) and persistent user profiles.
 
-Word Hunt Clone is a one player game where users are given a randomly generated board of letters and are tasked with connecting the letters on that board to create English words.
-
-Required Libraries: 
--CMU graphics: https://academy.cs.cmu.edu/desktop
-
-How to run: Run the wordhunt.py file in your Python IDE
-
-Shortcuts:
-p: while in game, press p to set the clock timer to 0 and finish your current run of the game.
-
-sources cited:
-https://github.com/dwyl/english-words/blob/master/README.md
+Features
+Randomized 4x4 board for each game
+Profile creation and high score tracking
+Hints system with limited uses
+Timer-based gameplay and scoring system
+Hotkeys
+Enter: Submit your profile name
+Backspace: Delete a character in your name
+P: End the game and view results
+H: Use a hint (limited to 3 per game)
+How to Play
+Create Profile: Enter your name and press Enter.
+Start Game: Select letters by clicking and dragging on the board to form words.
+Score: Longer words score more points. Use hints if necessary.
+End Game: View your score on the results screen and see if you’ve achieved a new high score.
+Installation
+Install required libraries: pip install cmu-graphics Pillow.
+Run the game: python word_hunt.py.
