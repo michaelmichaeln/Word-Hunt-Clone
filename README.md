@@ -17,5 +17,16 @@ Start Game: Select letters by clicking and dragging on the board to form words.
 Score: Longer words score more points. Use hints if necessary.
 End Game: View your score on the results screen and see if you’ve achieved a new high score.
 Installation
-Install required libraries: pip install cmu-graphics Pillow.
-Run the game: python word_hunt.py.
+# Steps:
+#   1. Clone or download this project to your local machine.
+#   2. Navigate to the project directory:
+#        cd /path/to/Word-Hunt-Clone
+#   3. Create a virtual environment to isolate dependencies:
+#        python3 -m venv venv
+#   4. Activate the virtual environment:
+#        source venv/bin/activate  (MacOS/Linux)
+#        venv\Scripts\activate     (Windows)
+#   5. Install the required dependencies:
+#        pip install -r requirements.txt
+#   6. Run the game:
+#        python word_hunt.py

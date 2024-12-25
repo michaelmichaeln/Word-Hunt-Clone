@@ -16,8 +16,7 @@
 #     - Hints system to assist the player in finding valid words.
 #     - Multiple screens (home, instructions, game, results, etc.).
 #
-# Authors: [Your Name]
-# Date: [Current Date]
+# Author: [Michael Nguyen]
 # Language: Python 3.x
 # External Libraries:
 #   - cmu_graphics (for GUI components)
@@ -25,12 +24,19 @@
 #   - pickle (for profile persistence)
 #   - random (for random board generation)
 #
-# Usage:
-#   1. Install required external libraries:
-#      `pip install cmu-graphics Pillow`
-#   2. Run the script:
-#      `python word_hunt.py`
-#
+# Steps:
+#   1. Clone or download this project to your local machine.
+#   2. Navigate to the project directory:
+#        cd /path/to/Word-Hunt-Clone
+#   3. Create a virtual environment to isolate dependencies:
+#        python3 -m venv venv
+#   4. Activate the virtual environment:
+#        source venv/bin/activate  (MacOS/Linux)
+#        venv\Scripts\activate     (Windows)
+#   5. Install the required dependencies:
+#        pip install -r requirements.txt
+#   6. Run the game:
+#        python word_hunt.py
 # -------------------------------------------------------------------------
 
 from cmu_graphics import *
